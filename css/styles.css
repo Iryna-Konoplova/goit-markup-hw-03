@@ -69,6 +69,9 @@ img {
 
 .main-nav {
   display: flex;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ececec;
 }
 
 .nav {
@@ -154,6 +157,8 @@ img {
 /* section hero */
 
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
   background: #2f303a;
 }
 
@@ -190,7 +195,7 @@ img {
 .benefits,
 .preview,
 .portfolio {
-  background-color: #e5e5e5;
+  background: #ffffff;
 }
 .benefits {
   padding-top: 94px;
@@ -314,6 +319,10 @@ img {
   justify-content: center;
 }
 
+.button {
+  border: 0;
+}
+
 .portfolio-button .item:not(:last-child) {
   margin-right: 8px;
 }
@@ -418,4 +427,10 @@ address > a {
 address a:hover,
 address a:focus {
   color: var(--accent-color);
+}
+
+.mail {
+  display: block;
+  margin-top: 9px;
+  margin-bottom: 9px;
 }
